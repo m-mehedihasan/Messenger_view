@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messenger</title>
+    <!-- resetting  -->
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- custom css  -->
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+     <div class="msg-container">
+         <!-- working in left panel -> it divided in two panel upper and lower  -->
+         <div class="left-side">
+             <!-- left panel -->
+            <div class="upper">
+                <!-- upper area -> messenger header and search  -->
+                <div class="lheader">
+                    <!-- header dived in two parts -> logo and icons  -->
+                    <div class="logo">
+                        <img src="./media/profile/steve-jobs.jpg" alt="steve-jobs" width="50" height="50">
+                        <h5>Steve Jobs</h5>    
+                    </div>
+                    <!-- icons  -->
+                    <div class="icons">
+                        <i class="fas fa-ellipsis-h"></i>
+                        <i class="fas fa-edit"></i>
+                    </div>
+                    <!-- end of icons  -->
+                </div>
+                <!-- end of header part of left side upper  -->
+                <div class="search-box">
+                    <label for="search_box">
+                        <i class="fas fa-search"></i>
+                    </label>
+                    <input type="text" id="search_box">
+                </div>
+                <!-- end of search_box  -->
+            </div>
+            <!-- end of upper side  -->
+            <div class="lower messages">
+                <!-- messages area  -->
+                <div class="message">
+                    <!-- each message divide in two  parts -> pic and data  -->
+                    <div class="picture">
+                        <img src="./media/profile/larry.jpg" width="50" height="50" alt="user1">
+                    </div>
+                    <!-- end of picture  -->
+                    <div class="data">
+                        <h5>Larry Page</h5>
+                        <h6>Hey! What Ipsum think about google?</h6>
+                    </div>
+                    <!-- end of data  -->
+                </div>
+                <!-- end of message  1-->
+                <div class="message">
+                    <!-- each message divide in two  parts -> pic and data  -->
+                    <div class="picture">
+                        <img src="./media/profile/surgrey.jpg" width="50" height="50" alt="user1">
+                    </div>
+                    <!-- end of picture  -->
+                    <div class="data">
+                        <h5>Surgrey Brin</h5>
+                        <h6>We choose Pichai as our CEO</h6>
+                    </div>
+                    <!-- end of data  -->
+                </div>
+                <!-- end of message  2-->
+                <div class="message">
+                    <!-- each message divide in two  parts -> pic and data  -->
+                    <div class="picture">
+                        <img src="./media/profile/pic1.jpg" width="50" height="50" alt="user1">
+                    </div>
+                    <!-- end of picture  -->
+                    <div class="data">
+                        <h5>First Athim</h5>
+                        <h6>Hey! How are you my dear!</h6>
+                    </div>
+                    <!-- end of data  -->
+                </div>
+                <!-- end of message  3-->
+                <div class="message">
+                    <!-- each message divide in two  parts -> pic and data  -->
+                    <div class="picture">
+                        <img src="./media/profile/pic2.jpg" width="50" height="50" alt="user1">
+                    </div>
+                    <!-- end of picture  -->
+                    <div class="data">
+                        <h5>Kerin Neha</h5>
+                        <h6>It was very long when we meet!!!</h6>
+                    </div>
+                    <!-- end of data  -->
+                </div>
+                <!-- end of message  4-->
+                <div class="message">
+                    <!-- each message divide in two  parts -> pic and data  -->
+                    <div class="picture">
+                        <img src="./media/profile/pic3.jpg" width="50" height="50" alt="user1">
+                    </div>
+                    <!-- end of picture  -->
+                    <div class="data">
+                        <h5>Jack Miker</h5>
+                        <h6>Did you read my book?</h6>
+                    </div>
+                    <!-- end of data  -->
+                </div>
+                <!-- end of message  5-->
+                <div class="message">
+                    <!-- each message divide in two  parts -> pic and data  -->
+                    <div class="picture">
+                        <img src="./media/profile/pic4.jpg" width="50" height="50" alt="user1">
+                    </div>
+                    <!-- end of picture  -->
+                    <div class="data">
+                        <h5>Rehana Jekhar</h5>
+                        <h6>Some gossip goes here !</h6>
+                    </div>
+                    <!-- end of data  -->
+                </div>
+                <!-- end of message  6-->
+                
+                
+            </div>
+            <!-- end of lower side  -->
+         </div>
+         <!-- end of left panel  -->
+         <div class="right-side">
+             <!-- right side panel  -->
+                <!-- right side header  -->
+                    <!-- header dived in two parts -> logo and icons  -->
+                   <div class="rheader">
+                    <div class="logo">
+                        <img src="./media/profile/larry.jpg" alt="larry" width="50" height="50">
+                        <div class="info">
+                            <h5>Larry Page</h5>
+                            <h6>Active 4 minutes ago</h6>
+                        </div>    
+                    </div>
+                    <!-- icons  -->
+                    <div class="icons">
+                        <i class="fas fa-phone-alt"></i>
+                        <i class="fas fa-video"></i>
+                        <i class="fas fa-info-circle"></i>
+                    </div>
+                    <!-- end of icons  -->
+                </div>
+               
+            <!-- end of header part  -->
+                <!-- chats area  -->
+            <div class="chats">
+                <!-- chat box  -->
+                <div class="chat-box">
+                   <div id="person1">
+                       <img src="./media/profile/larry.jpg" alt="larry" width="50" height="50">
+                       <p>Hello</p>
+                   </div>
+                   <div id="person1">
+                    <img src="./media/profile/larry.jpg" alt="larry" width="50" height="50">
+                    <p>Hey! What Ipsum think about google?</p>
+                </div>
+                   <div id="person2">
+                       <p>He says, 'It is a great think done by you.'</p>
+                   </div>
+                </div>
+                <!-- end of chat box  -->
+
+                <div class="send-area">
+                    <input type="text"> 
+                    <i class="fas fa-location-arrow"></i>
+                </div>
+            </div>
+            <!-- end of chats area  -->
+         </div>
+     </div>
+</body>
+<!-- jQuery-3  -->
+<script src="js/jQuery-3.6.0.js"></script>
+
+</html>
